@@ -6,8 +6,11 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JS (opti
 
 // Ensure to reference only one `StrictMode` wrapper
 createRoot(document.getElementById('root')).render(
+  <StrictMode>
   <div className="container my-5 w-50">
-    <Form />
+      <Form/>
   </div>
+</StrictMode>,
+
 );
 
